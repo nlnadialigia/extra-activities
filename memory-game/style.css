@@ -42,7 +42,8 @@ body{
     justify-content: center;
 }
 
-button{
+button,
+.id02{
     background: var(--bg-color);
     color: var(--title-color);
     font-family: 'Suez One', serif;
