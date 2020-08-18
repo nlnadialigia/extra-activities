@@ -1,0 +1,49 @@
+:root{
+    --bg-color: rgb(17, 3, 97);
+    --body-color: black;
+    --title-color: #d3d3f7;
+    --bg-modal: white;
+    --card-color: #d92027;
+
+    font-size: 60%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80vw;
+    height: 100vh;
+    background: var(--body-color);
+    margin: 0.4rem auto;
+}
+
+header{
+    padding: 8rem;
+    text-align: center;
+}
+
+main{
+    width: 80vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
+
+main img{
+    margin: 3rem;
+    border: 0.8rem solid var(--card-color);
+}
+
+main img:nth-child(4),
+main img:nth-child(5){
+    width: 85%;
+    height: auto;
+}
+
